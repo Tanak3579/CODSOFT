@@ -1,0 +1,226 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #050518; /* Darker background color */
+  color: #b3d9ff; /* Light blue text */
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: left;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+  padding: 20px;
+  transition: background-color 0.3s ease;
+}
+
+section:hover {
+  background-color: #111; /* Darker background color on hover */
+}
+
+h2, p {
+  transition: color 0.3s ease;
+}
+
+section:hover h2, section:hover p {
+  color: #fff; /* Text color change on hover */
+}
+/* Square Container for 'About Me' */
+.square-container {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 40px; /* Added margin-bottom of 40px */
+  background-color: #050518; /* Dark blue background color */
+  color: #b3d9ff; /* Light blue text color */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease; /* Added color transition */
+
+}
+
+.square-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+  color: #fff; /* White text color on hover */
+}
+
+
+
+
+.project {
+  background-color: #333;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+.btn {
+  background-color: #ff8800; /* Updated button color */
+  color: #fff; /* White text for buttons */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  background-color: #ffbb33; /* Button hover color */
+  transform: scale(1.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Continuous color change for 'Your Name' */
+.title {
+  font-size: 3em;
+  
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+@keyframes colorChange {
+  0% {
+    color: #ffcc00;
+  }
+  100% {
+    color: #ff0000;
+  }
+}
+.title1 {
+  font-size: 3em;
+  
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+@keyframes colorChange {
+  0% {
+    color: #ffcc00;
+  }
+  100% {
+    color: #ff0000;
+  }
+}
+/* General styles */
+/* ... [existing styles remain unchanged] ... */
+
+/* Added styles for the new container */
+/* General styles */
+/* ... [existing styles remain unchanged] ... */
+
+/* Updated styles for the new container and sections */
+/* General styles */
+/* ... [existing styles remain unchanged] ... */
+
+/* Updated styles for the new container and sections */
+/* General styles */
+/* ... [existing styles remain unchanged] ... */
+
+/* Updated styles for the new container and sections */
+.section-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px; /* Increasing the gap between sections to 40px */
+}
+
+.project-section,
+.skills-section,
+section {
+  flex: 1;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 0 10px rgba(173, 216, 230, 0.7); /* Light blue box shadow */
+  padding: 20px;
+  margin-bottom: 40px; /* Increasing the margin between sections to 40px */
+}
+
+.project-section:hover,
+.skills-section:hover,
+section:hover {
+  box-shadow: 0 0 20px rgba(173, 216, 230, 0.9); /* Lighter box shadow on hover */
+}
+/* Your existing CSS styles */
+
+/* Styles for the contact form */
+.contact-form {
+  display: none;
+  width: 300px;
+  padding: 20px;
+  background-color: #050518;
+  color: #b3d9ff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+  margin: 20px auto;
+}
+
+.contact-form h2 {
+  margin-bottom: 15px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.contact-form input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #ff8800;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #ffbb33;
+}
+
