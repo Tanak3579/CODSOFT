@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computer Engineer Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+
+    <h1 class="title">Hello, I'm Tanak Shah,</h1>
+    <h1 class="title1">The Tech Wizard. </h1>
+<a href="#" class="btn hire-me-btn">Hire Me</a>
+<a href="https://www.google.com" class="btn" target="_blank" >Download CV</a>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+	<li><a href="https://www.instagram.com/__.tanak.__/?next=%2F">Instagram</a></li>
+<li><a href="https://www.linkedin.com/in/tanak-shah-1a8052283">LinkedIn</a></li>
+<li><a href="">Facebook</a></li>
+<li><a href="">Twitter</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+  <section id="contact" class="contact-section">
+      <div class="contact-form" id="contactForm">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br><br>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br><br>
+          
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" required></textarea><br><br>
+          
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </section>
+    <section id="about" class="square-container">
+  <h2>STORY OF SELF</h2>
+  <img src=".jpg" alt="Description of the image">
+  <p>Hey there! I'm TANAK SHAH, a passionate computer engineer on an endless exploration through the realm of code. My journey began at Shri Bhaghubhai Mafatlal Polytechnic, where I delved into the world of technology, honing my skills and curiosity. Furthering my education at DJ Sanghvi College, I embraced the nuances of software development, paving my way into becoming a versatile full-stack developer.</p>
+  <button class="btn"  id="toggleContent" >Read More</button>
+  <div id="hiddenContent" style="display: none;">
+    <!-- Hidden content to be revealed -->
+    <p>This is additional information that was hidden. Now it's visible!</p>
+  </div>
+</section>
+
+
+   
+
+    <div class="section-container">
+      <section id="projects" class="project-section">
+        <h2><center>Innovations</center></h2>
+        <div class="project">
+          <h3><center>BANK MANAGEMENT SYSTEM</center></h3>
+          <p>A Java-based bank management system with a GUI is software that helps manage banking operations. It lets users handle accounts, transactions, and customer details through an easy-to-use interface. It's secure, allows different account types, and uses Java's graphical tools for a smooth user experience.</p>
+          <a href="" class="btn" target="_blank">My Projects!</a>
+        </div>
+        <!-- Add more project divs as needed -->
+      </section>
+
+
+      <section id="skills" class="skills-section">
+        <h2><center>Skills at a Glance</center></h2>
+          <ul>
+     <h3> <li><b>🚀Code Crafting: Fluent in languages like C, C++, Python, and Java; sculpting digital solutions with precision.</li>
+      	<li>🌐 Web Wizardry: Proficient in HTML, CSS, and JavaScript, weaving interactive web experiences.</li>
+     	<li>🧠 Algorithm Architect: Building efficient algorithms and mastering data structures for seamless problem-solving.</li>
+	<li>🛠️ Tech Tinkering: Exploring the depths of computer architecture and hardware intricacies.</li>
+	<li>🌟 Innovation Igniter:  Started Exploring the frontiers of AI and machine learning, fueling futuristic ideas.</li>
+	<li>🔍 Solution Seeker: Navigating complex problems, transforming challenges into triumphs.</li></b></h3>
+      <!-- Add more skills as needed -->
+    </ul>
+        <button class="btn" onclick="">See Skills</button>
+      </section>
+    </div>
+
+    <section id="contact">
+      <h2>Ready to spark a conversation? Connect now!</h2>
+<p>Feel free to get in touch!</p>
+      <p>E-mail id: tanakshah159@gmail.com</p>
+	<p>Phone no: +91 8097031433</p>
+
+
+      <!-- Linked the button to Google -->
+    </section>
+  </main>
+
+  <footer>
+    <p><center>Copyright 2023 TANAK SHAH</center></p>
+  </footer>
+
+    <script src="script.js"></script>
+  <script>
+    document.querySelector('.hire-me-btn').addEventListener('click', function() {
+      document.getElementById('contactForm').style.display = 'block';
+    });
+  </script>
+</body>
+</html>
